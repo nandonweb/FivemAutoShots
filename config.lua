@@ -4,21 +4,23 @@ srkPhoto = {}
 -----------------------------------  PRINT DOS CARROS
 ---------------------------------------------------------------------------------------------------
 
-srkPhoto.carcommand = 'carTakePhoto'
+srkPhoto.carcommand = 'carphoto'
 
 srkPhoto.list = {  --------------------- LISTA DOS CARROS QUE VÃO SER FOTOGRAFADOS
     'panto',
+    't20',
+    'kuruma',
 }
 
-srkPhoto.coords = vector3(39.58,-1058.17, 37.9) ---------------- POSIÇÃO DO CARRO
+srkPhoto.coords = vector3(-75.40, -818.19, 326.17) ---------------- POSIÇÃO DO CARRO
 
-srkPhoto.heading = 115.95 ---------------- ROTAÇÃO DO CARRO
+srkPhoto.heading = 235.85 ---------------- ROTAÇÃO DO CARRO
  
 srkPhoto.customPosition = false ---- DEIXE FALSE CASO O FOTOGRAFO NÃO TENHA UMA POSIÇÃO FIXA
 
-srkPhoto.playerCoords = vector3(37.42, -1062.2, 38.33) ---------------- POSIÇÃO DO FOTOGRAFO
+srkPhoto.playerCoords = vector3(-76.18, -812.03, 326.17) ---------------- POSIÇÃO DO FOTOGRAFO
 
-srkPhoto.playerHeading = 335.01  -------------- ROTAÇÃO DO FOTOGRAFO
+srkPhoto.playerHeading = 191.84  -------------- ROTAÇÃO DO FOTOGRAFO
 
 ---------------------------------------------------------------------------------------------------
 -----------------------------------  PRINT DAS ROUPAS MODS
